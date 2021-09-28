@@ -23,11 +23,10 @@ friends.insert(4, "Jim")
 print(friends)
 print(friends.count("Jim")) #conta quantas vezes um mesmo valor aparece na lista.
 friends.sort()  # Coloca em ordem alfabética de acordo com a ordem
-print(friends)
+# print(friends)
 lucky_numbers.sort()
 print(lucky_numbers)
 
-freinds2 = friends.copy()
-
+print(friends) # esta linnha imprime uma lista específica.
 
 
