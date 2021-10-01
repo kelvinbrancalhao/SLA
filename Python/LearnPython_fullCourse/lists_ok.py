@@ -27,6 +27,6 @@ friends.sort()  # Coloca em ordem alfabética de acordo com a ordem
 lucky_numbers.sort()
 print(lucky_numbers)
 
-print(friends) # esta linnha imprime uma lista específica.
+print(friends) #esta linnha imprime uma lista específica.
 
 
