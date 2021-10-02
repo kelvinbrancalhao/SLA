@@ -1,22 +1,23 @@
 # o Objetivo desse desafio é preencher uma matriz 5x5 como se fosse um caracol
 coluna = 0
 linha = 0
-max_coluna = 5
-max_linha = 5
+max_coluna = 10
+max_linha = 10
 numero = 0
 direcionador_linha = 1
 direcionador_coluna = 1
-vaga = 5
 pos_linha = 0
 pos_coluna = 0
 
-matriz_caracol = [
-    [0,0,0,0,0],
-    [0,0,0,0,0],
-    [0,0,0,0,0],
-    [0,0,0,0,0],
-    [0,0,0,0,0],
-]
+def gerar_matriz (n_linhas, n_colunas):
+    matriz = []
+
+    for _ in range(n_linhas):
+        matriz.append( [" "] * n_colunas )
+
+    return matriz
+
+matriz_caracol = gerar_matriz(10,10)
 
 while max_coluna > 0:
 
