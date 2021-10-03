@@ -1,8 +1,9 @@
-# o Objetivo desse desafio é preencher uma matriz 5x5 como se fosse um caracol
+# Desafio de Matriz caracol, seja bem vindo:
+print("Seja bem vindo ao desafio da Matriz Caracol:")
 coluna = 0
 linha = 0
-max_coluna = 10
-max_linha = 10
+max_coluna = int(input("Insira o número de colunas: "))
+max_linha = int(input("Insira o numero de linhas: "))
 numero = 0
 direcionador_linha = 1
 direcionador_coluna = 1
@@ -17,7 +18,7 @@ def gerar_matriz (n_linhas, n_colunas):
 
     return matriz
 
-matriz_caracol = gerar_matriz(10,10)
+matriz_caracol = gerar_matriz(max_linha,max_coluna)
 
 while max_coluna > 0:
 
