@@ -14,7 +14,7 @@ def gerar_matriz (n_linhas, n_colunas):
     matriz = []
 
     for _ in range(n_linhas):
-        matriz.append( [" "] * n_colunas )
+        matriz.append([" "] * n_colunas)
 
     return matriz
 
