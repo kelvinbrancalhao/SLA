@@ -9,4 +9,4 @@ def raise_to_exp(base,exp):
 
     return result
 
-print (raise_to_exp(2,5))
+print (raise_to_exp(0,5))
