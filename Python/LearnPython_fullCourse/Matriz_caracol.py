@@ -1,4 +1,3 @@
-# Desafio de Matriz caracol, seja bem vindo:
 print("Seja bem vindo ao desafio da Matriz Caracol:")
 coluna = 0
 linha = 0
