@@ -6,5 +6,37 @@
     result += "The" + MyAdjective + myNoun + MyVerb + " to the store" + MyAdverb;
     return result;
   }
-  console.log(wordBlanks(" dog", " big", " ran", " quickly"));
+  console.log(wordBlanks(" dog ", " big ", " ran ", " quickly "));
+
+  var array = ["Jose" , "J" , "cat"];
+  array.shift();
+  array.unshift("Marcos");
+
+  var num =10;
+  function minusSeven(num){
+    return num - 7;
+  }
+  console.log(minusSeven(num));
+
+  var sum = 0;
+  function addtres(){
+    sum = sum + 3;
+  }
+  console.log(addtres())
+
+  /* nova função */
+
+  function nextInLine(arr, item){
+
+    arr.push(item);
+
+    return arr.shift();
+  }
+  
+  var testeArr = [1,2,3,4,5];
+
+  console.log("Before: " + JSON.stringify(testeArr));
+  console.log(nextInLine(testeArr, 6));
+  console.log("After: " + JSON.stringify(testeArr));P
+
 </script>
